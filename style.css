@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+:root{
+    --primary-color:rgb(40, 86, 40);
+    --secoundary-color: yellow;
+}
