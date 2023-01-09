@@ -1,9 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Mukta', sans-serif;
+.stage{
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: skyblue;
+    position: relative !important;
 }
-:root{
-    --primary-color:rgb(40, 86, 40);
-    --secoundary-color: yellow;
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border: 1px solid palegoldenrod;
+    border-radius: 50%;
+    position: absolute !important;
+    animation: mmr 4s ease-in 0s infinite;
+    animation-play-state: running;
+}
+@keyframes mmr{
+    0%{
+        margin-top: 0x;
+        margin-left: 0px;
+    }
+    25%{
+        
+        margin-top: 0px;
+        margin-left: 650px;
+    }
+    50%{
+        margin-top: 250px;
+        margin-left: 650px;
+     }
+    75%{
+        margin-left: 0px;
+        margin-top: 250px;
+    }
+    100%{
+        margin-top: 0px;
+        margin-left: 0px;    }
 }
